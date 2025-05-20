@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 
 
+## [0.8.2](https://github.com/starovoid/petgraph/compare/petgraph@v0.8.1...petgraph@v0.8.2) - 2025-05-20
+
+### Documentation
+
+- Specify that Acyclic::try_udpate_edge may add an edge ([#770](https://github.com/starovoid/petgraph/pull/770))
+
+### New Features
+
+- *(parser)* allow parsing graphs from Dot/Graphviz files ([#653](https://github.com/starovoid/petgraph/pull/653))
+- Implement `DataMap` for `GraphMap` graphs ([#776](https://github.com/starovoid/petgraph/pull/776))
+
+### Refactor
+
+- Fix new clippy warnings ([#791](https://github.com/starovoid/petgraph/pull/791))
+
 ## [0.8.1](https://github.com/petgraph/petgraph/compare/petgraph@v0.8.0...petgraph@v0.8.1) - 2025-04-07
 
 This patch release re-adds a missing `VisitMap` implementation that was dropped in the `0.8.0` release,
